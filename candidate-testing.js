@@ -41,11 +41,9 @@ function askQuestion() {
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-  if (correctAnswer.toLowerCase === candidateAnswer.toLowerCase) {
+  if (correctAnswer === candidateAnswer) {
     console.log("Correct!");
-  }
-
-  else {
+  } else {
     console.log("Sorry, that is incorrect.");
   } // DONE: used a conditional statement to decide whether the candidate's answer was correct //
 
